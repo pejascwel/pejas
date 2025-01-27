@@ -17,5 +17,5 @@ document.querySelector(".go").addEventListener('click', () => {
     params.set("borndate", borndate.value);
     params.set("pesel", pesel.value);
 
-    location.href = "/pejas.github.io/id?" + params;
+    location.href = "/pejas/id?" + params;
 });
